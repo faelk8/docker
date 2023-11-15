@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="image/docker-logo.png" alt="Kubernetes" width=180px height=120px >
+  <img src="image/docker-logo.png" alt="Docker" width=180px height=120px >
   <br>
   Docker - Primeiros Passos
 </h1>
