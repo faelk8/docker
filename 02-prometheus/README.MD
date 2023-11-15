@@ -55,7 +55,7 @@ http://localhost:9090
 
 
 # CadAdivisor
-Monitora
+Monitorao container.
 
 docker-compose.yaml
 ```
@@ -87,6 +87,8 @@ scrape_configs:
 http://localhost:8080
 
 # Grafana
+
+
 docker-compose.yaml
 ```
   grafana:
