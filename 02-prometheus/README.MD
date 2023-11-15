@@ -4,7 +4,7 @@
 <h1 align="center">
   <img src="image/prometheus.png" alt="Prometheus" width=120px height=120px >
   <br>
-  Docker Prometheus 
+ Prometheus 
 </h1>
 
 <div align="center">
@@ -15,7 +15,7 @@
 </div>
 
 # Prometheus
-Código do Promethues
+Código do Prometheus
 
 docker-compose.yaml
 ```
@@ -55,7 +55,7 @@ http://localhost:9090
 
 
 # CadAdivisor
-Monitorao container.
+Monitora o container.
 
 docker-compose.yaml
 ```
