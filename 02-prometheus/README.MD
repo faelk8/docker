@@ -1,10 +1,7 @@
-
-
-
 <h1 align="center">
-  <img src="image/prometheus.png" alt="Prometheus" width=120px height=120px >
+  <img src="./../image/docker-logo.png" alt="Docker" width=180px height=120px >
   <br>
- Prometheus 
+  Docker
 </h1>
 
 <div align="center">
@@ -105,12 +102,3 @@ docker-compose.yaml
     ports:
     - 6379:6379      
 ```
-
-
-#
-
-
-
-
-
-

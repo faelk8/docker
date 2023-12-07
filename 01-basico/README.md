@@ -1,7 +1,7 @@
 <h1 align="center">
-  <img src="image/docker-logo.png" alt="Docker" width=180px height=120px >
+  <img src="./../image/docker-logo.png" alt="Docker" width=180px height=120px >
   <br>
-  Docker - Primeiros Passos
+  Docker
 </h1>
 
 <div align="center">
@@ -75,7 +75,7 @@ docker build -t faelk8/ubuntu-cante .
 | docker volume rm (docker volume ls -q) | Apaga todos os volumes |
 | docker ps | Mostra  os container |
 | docker ps -a  | Mostra  todos os container ativos e inativos |
-| docker pull < imagem > | Baixa a imagem >
+| docker pull < imagem > | Baixa a imagem |
 | docker rm < CONTAINER ID > | Deleta o container parado|
 | docker rm < CONTAINER ID > -f | Força a deleção do container |
 | docker rmi < imagem > | Apaga a imagem |

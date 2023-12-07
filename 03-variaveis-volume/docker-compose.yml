@@ -1,0 +1,28 @@
+# versão do yml
+version: "3.9"
+# Definição dos serviços
+services:
+  # Banco de dados
+  mongodb:
+    image: mongo:4.4.6
+    container_name: meu-mongo
+    # Definindo a rede
+    networks:
+      - compose-bridge
+  
+  # serviço
+  node:
+    image: faelk8/app-node:1.0
+    container_name: node 
+    networks:
+      - compose-bridge
+    ports:
+      - 3000:3000
+    # Depende do banco de dados
+    depends_on:
+      - mongodb
+
+# Configurando a rede
+networks:
+  compose-bridge:
+    driver: bridge
